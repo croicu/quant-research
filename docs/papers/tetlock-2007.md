@@ -1,5 +1,7 @@
 # Tetlock (2007) — Giving Content to Investor Sentiment
 
+<!-- branch-fetch-check: 2026-07-18, testing whether a pasted GitHub branch URL is fetchable from a claude.ai conversation -->
+
 **Citation:** Tetlock, P.C. (2007). "Giving Content to Investor Sentiment: The Role of Media in the Stock Market." *Journal of Finance* 62(3): 1139–1168.
 
 ## Claim
