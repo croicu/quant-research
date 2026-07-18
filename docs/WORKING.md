@@ -6,8 +6,7 @@ Format: `- [ ] URL — what to extract — target`
 
 ## Queue
 
-- [ ] https://personal.lse.ac.uk/polk/research/TugOfWar.pdf — clientele mechanism, overnight/intraday decomposition, anything conditioning on our premarket→close window — `papers/lou-polk-skouras-2019.md`
-- [ ] https://papers.ssrn.com/sol3/papers.cfm?abstract_id=685145 — pessimism→pressure→reversion result, construction of the sentiment measure, applicability to index-level daily horizon — `papers/tetlock-2007.md`
+- [ ] https://personal.lse.ac.uk/polk/research/TugOfWar.pdf — clientele mechanism, overnight/intraday decomposition, anything conditioning on our premarket→close window — `docs/papers/lou-polk-skouras-2019.md`
 
 ## Distillation contract
 
@@ -17,4 +16,4 @@ A distillation is one page max: claim, method in two sentences, result with hone
 
 Moved here briefly after distillation, deleted at next compaction.
 
-- —
+- [x] https://papers.ssrn.com/sol3/papers.cfm?abstract_id=685145 — Tetlock (2007) — distilled to `docs/papers/tetlock-2007.md`; working notes in `tasks/distill-tetlock-2007/`

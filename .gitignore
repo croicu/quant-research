@@ -1,0 +1,3 @@
+# Local-only working files (raw source PDFs, downloads) — never committed.
+# Mirrors the tasks/<job-slug>/ structure but content here is git-ignored entirely.
+/local/

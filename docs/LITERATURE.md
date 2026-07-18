@@ -15,7 +15,7 @@ Reading order: Tetlock → Lou et al. → Welch & Goyal → agent-based modeling
 
 | Work | Status | Why it matters | Access |
 |---|---|---|---|
-| Tetlock (2007), *Giving Content to Investor Sentiment*, JF | queued | Media pessimism predicts daily index pressure then reversion — closest published analogue to our design; shortest, most intuitive read | [SSRN working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=685145) |
+| Tetlock (2007), *Giving Content to Investor Sentiment*, JF | noted | Media pessimism predicts daily index pressure then reversion — closest published analogue to our design; shortest, most intuitive read. See `docs/papers/tetlock-2007.md` | [SSRN working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=685145) |
 | Baker & Wurgler (2006), *Investor Sentiment and the Cross-Section of Stock Returns*, JF | queued | Standard sentiment index construction; warning: sentiment predicts mainly hard-to-arbitrage stocks, not SPY/QQQ | SSRN / Google Scholar |
 | Da, Engelberg & Gao (2015), *The Sum of All FEARS*, RFS | queued | Search-volume sentiment predicting short-horizon reversals; possible free proxy source | SSRN / Google Scholar |
 

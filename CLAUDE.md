@@ -36,6 +36,7 @@ You are the trunk's librarian and compactor, not a researcher with write authori
 - This repo is **public and methodological**. Never write operational specifics here: no P&L, position sizes, broker details, or live parameter values. If a finding arrives from a private branch containing these, sanitize to verdicts and conditions and flag the omission.
 - No secrets of any kind, ever — not in files, not in issue text
 - Data in `docs/data/` must be small (< a few MB), curated, and provenance-noted
+- Paraphrase, don't reproduce. Short, attributed quotes (a phrase or sentence, clearly cited) are fine — normal fair use. What's not defensible: dumping full paragraphs or pages verbatim, or storing the source material itself (PDFs, full text, scraped HTML) in the repo, even transiently in `tasks/`. Facts, numbers, and findings are free to extract regardless.
 
 ## Style
 
@@ -47,3 +48,4 @@ You are the trunk's librarian and compactor, not a researcher with write authori
 
 - Compactions and distillations are separate, short sessions; do one job and stop
 - Cross-repo work with branch repos (`quant-signals`, `quant-clusters`, `quant-execution`) happens via `--add-dir`; load only the contract you need
+- In-progress work for a job lives in `tasks/<job-slug>/` (e.g. `tasks/distill-tetlock-2007/`) — extraction notes, drafts, scratch state (see Content rules for what may and may not go in there). The finished output (e.g. `docs/papers/<slug>.md`) is what matters going forward — task notes are an audit trail, not canon

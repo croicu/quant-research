@@ -16,14 +16,15 @@ Trunk repository for a small quantitative trading research project. Docs and cur
 | `docs/WORKING.md` | Work in progress: links queued for fetching and distillation |
 | `docs/QUESTIONS.md` | Research question index with status (open / reading / answered / falsified) — not yet created |
 | `docs/LITERATURE.md` | Reference material index |
-| `docs/papers/` | One note per paper read — not yet created |
+| `docs/papers/` | One note per paper read |
 | `docs/contracts/` | One page per branch repo: inputs, outputs, question answered — not yet created |
 | `docs/data/` | Small, curated, hand-reviewed reference data — not yet created |
+| `tasks/<job-slug>/` | Task-in-progress notes (extraction notes, drafts, scratch state) for an open job; not canon — the finished output elsewhere is what matters |
 
 Transitory communication (findings awaiting merge, open threads) lives in **GitHub issues**; the repo holds only what survived.
 
 ## Workflow
 
-Work happens in branch conversations and branch repos (`quant-signals`, `quant-clusters`, `quant-execution`, …), each born from a contract. Results return as issues; periodic compaction folds them into `report.md` and closes them. All commits are made manually by the maintainer after review — the trunk is read-only for tools.
+Work happens in branch conversations and branch repos (`quant-signals`, `quant-clusters`, `quant-execution`, …), each born from a contract. Results return as issues; periodic compaction folds them into `docs/REPORT.md` and closes them. All commits are made manually by the maintainer after review — the trunk is read-only for tools.
 
 Public trunk, methodological content only. Operational specifics (P&L, sizing, live parameters) live in private branches; findings arrive here already sanitized.
