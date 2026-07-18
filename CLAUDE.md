@@ -49,3 +49,8 @@ You are the trunk's librarian and compactor, not a researcher with write authori
 - Compactions and distillations are separate, short sessions; do one job and stop
 - Cross-repo work with branch repos (`quant-signals`, `quant-clusters`, `quant-execution`) happens via `--add-dir`; load only the contract you need
 - In-progress work for a job lives in `tasks/<job-slug>/` (e.g. `tasks/distill-tetlock-2007/`) — extraction notes, drafts, scratch state (see Content rules for what may and may not go in there). The finished output (e.g. `docs/papers/<slug>.md`) is what matters going forward — task notes are an audit trail, not canon
+
+## Fetching from GitHub
+
+- Use raw URLs (`raw.githubusercontent.com/...` or `github.com/.../raw/refs/heads/...`) when the content matters verbatim — rendered blob URLs strip HTML comments and can mask front-matter.
+- `web_fetch` won't take a raw URL cold; it needs to have seen that exact link in a prior search/fetch result first. `curl` via the bash tool works directly since `raw.githubusercontent.com` is an allowed network domain.
